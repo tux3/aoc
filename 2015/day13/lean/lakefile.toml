@@ -1,0 +1,20 @@
+name = "day13"
+version = "0.1.0"
+defaultTargets = ["day13"]
+
+[[require]]
+name = "batteries"
+scope = "leanprover-community"
+rev = "v4.14.0"
+
+[[require]]
+name = "Regex"
+scope = "bergmannjg"
+rev = "v4.14.0"
+
+[[lean_lib]]
+name = "Day13"
+
+[[lean_exe]]
+name = "day13"
+root = "Main"
