@@ -1,0 +1,9 @@
+[package]
+name = "day23"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1"
+multimap = "0.10"
+itertools = "0.13"
